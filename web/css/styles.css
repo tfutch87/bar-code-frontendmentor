@@ -1,0 +1,73 @@
+/* Application Styling */
+/* 
+defaults
+ */
+
+body{
+    background-color: hsl(212, 45%, 89%);
+    display: grid;
+    place-content: center;
+    height: 100vh;
+}
+
+p{
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    color: hsl(218, 7%, 69%);
+    line-height: 1.3;
+    letter-spacing: .21px;
+
+}
+
+h2{
+    font-size: 22px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    line-height: 1.2;
+    
+}
+
+.card-container{
+    background-color: #fff;
+    width: 100%;
+    max-width: 325px;
+    margin: auto;
+    padding: 1.10em;
+    border-radius: 15px;
+}
+
+.card-container .card-top img{
+    border-radius: 7px;
+}
+
+.card-container .card-top{
+    margin-bottom: 22px;
+}
+
+.card-container .card-title{
+    text-align: center;
+    width: 100%;
+    max-width: 295px;
+    margin: auto;
+    margin-bottom: 17px;
+}
+
+.card-container .card-content{
+    text-align: center;
+    width: 100%;
+    max-width: 250px;
+    margin: auto;
+    margin-bottom: 17px;
+}
+
+@media only screen and (max-width: 375px) {
+    /* CSS rules for Mobile here */
+
+}
+  
+  @media only screen and (min-width: 1440px) {
+    /* CSS rules for Desktop here */
+}
+  
